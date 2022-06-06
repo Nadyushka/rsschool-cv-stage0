@@ -1,6 +1,6 @@
 # Nadya Baranova
 
-### Junior Frontend Developer
+## Junior Frontend Developer
 
 #### Contact information
 **Phone** +11111111
