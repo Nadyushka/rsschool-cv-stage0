@@ -1,1 +1,18 @@
+div {
+	color: blueviolet;
+	size: 25px;
+	border: 5px solid burlywood;
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	background-color: aquamarine;
+	vertical-align: middle;
+}
 
+p {
+	object-fit: cover;
+   width: 200px;
+	height: 200px;
+}
