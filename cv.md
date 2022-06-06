@@ -1,49 +1,49 @@
-Nadya Baranova
+# Nadya Baranova
 
-Junior Frontend Developer
+### Junior Frontend Developer
 
-Contact information
-Phone +11111111
+#### Contact information
+**Phone** +11111111
 
-Telegram @qqqqqqqqq
+**Telegram** @qqqqqqqqq
 
 
 [Codewars] (https://www.codewars.com/users/Nadyushka)
 
 [Freecodecamp] (https://www.freecodecamp.org/Nadyushka)
 
-About myself:
+#### About myself:
 
 I am was born in Minsk, Belarus. There i tried to find my own way. I had an amazing experience as a customs officer. This influenced on me and helped to start my way, improved my soft and hard skills. I was inspired enough to learn German and to improve English. So i started my work as casino dealer on a cruise ship. That was so cool and undescribable. I had 2 contracts. But i felt that my search is not completed. 
 I am wondering, how computer is working. So i tried to look for the information. Luckily i found rs-school and my way began.
 
-Skills and Proficiency:
+#### Skills and Proficiency:
 
-HTML5, CSS3
-JavaScript Basics
-Git, GitHub
-VS Code
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
 
-Code example:
+#### Code example:
 
 Write a function to split a string and convert it into an array of words.
 
-
+```
 function stringToArray(string){
   return string.split(' ');
 }
 
+```
 
+#### Courses:
 
- Courses:
+1. FreeCodeCamp - in process
+2. rs-school - in process
+3. free YouTube Course - "Freelancer for life" - completed
 
-FreeCodeCamp - in process
-rs-school - in process
-free YouTube Course - "Freelancer for life" - completed
+#### Languages:
 
-Languages:
-
- English - B2
- German - B1/B2
- Russian - native
- Polish - basic
+- English - B2
+- German - B1/B2
+- Russian - native
+- Polish - basic
