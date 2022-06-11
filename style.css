@@ -1,18 +1,94 @@
-div {
-	color: blueviolet;
-	size: 25px;
-	border: 5px solid burlywood;
-	border-radius: 10px;
-	margin: 0 auto;
-	text-align: center;
-	width: 200px;
-	height: 50px;
-	background-color: aquamarine;
+.wrapper {
+	max-height: 100%;
+}
+
+.container {
+	margin:0px auto;
+	max-width: 900px;
+}
+
+.introduse {
+	display: flex;
+}
+
+.avatar {
+	flex: 0 1 30%;
+	padding: 50px 0px 50px 0px;
 	vertical-align: middle;
 }
 
-p {
-	object-fit: cover;
-   width: 200px;
-	height: 200px;
+.avatar__line {
+	flex: 0 1 1.5%;
+	background-color: yellow;
+	height: 80px;
+	margin: 10px;
 }
+
+.name {
+	flex: 0 1 65%;
+	text-align: left;
+	vertical-align: middle;
+	padding-top: 50px;
+}
+
+.name__name {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: "Tahoma", Serif;
+	margin-bottom: 0px;
+}
+
+.name__surname {
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: "Tahoma", Serif;
+	margin-bottom: 0px;
+}
+
+
+.avatar__photo {
+width: 200px;
+border-radius: 50%;
+border:0.2px solid gray;
+text-align: center;
+vertical-align: middle;
+}
+
+.name__specialist {
+	background-color: yellow;
+	font-family: "Tahoma", Serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.name__slogan {
+	font-family: "Tahoma", Serif;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+.descrip {
+	display: flex;
+}
+
+.left__side {
+	flex: 0 1 30%;
+	background-color: antiquewhite;
+}
+
+.descr__line {
+	flex: 0 1 1.5%;
+	background-color: yellow;
+	height: 80px;
+	margin: 10px;
+}
+
+.right__side {
+	flex: 0 1 65%;
+	background-color: blueviolet;
+}
+
