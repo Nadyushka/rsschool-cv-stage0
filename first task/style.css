@@ -78,6 +78,9 @@ border:0.2px solid gray;
 	margin-bottom: 5px;
 }
 
+.move{
+	padding-top: 20px;
+}
 
 .descrip {
 	display: inline-flex;
@@ -106,7 +109,7 @@ border:0.2px solid gray;
 
 }
 
-.info__left {
+.info__contact, .education {
 	position: relative;
 }
 
@@ -117,8 +120,8 @@ border:0.2px solid gray;
 	width: 50px;
 	height: 5px;
 	text-align: right;
-	margin-top: 10px;
-		
+	margin-bottom: 10px;
+			
 }
 
 .line__right {
@@ -162,6 +165,7 @@ padding-top: 10px;
 h3 {
 	font-family: "Tahoma", Serif;
 	font-size: 17px;
+	margin-top: 25px;
 }
 
 	.info__process, .process__url, .info__graduated{
@@ -178,7 +182,7 @@ h3 {
 	}
 
 	.posit{
-		margin-top: 20px;
+		margin-top: 25px;
 	}
 
 	.line__right {
@@ -231,4 +235,50 @@ h3 {
 	font-size: 17px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+.footer__img {
+	height: 20px;
+}
+.github__footer {
+	font-family: "Tahoma", Serif;
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+}
+
+.info__list {
+	list-style-type: none;
+	font-family: "Tahoma", Serif;
+	font-size: 15px;
+}
+
+.menu__items{
+	font-family: "Tahoma", Serif;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+	height: 30px;
+	margin-bottom: 0px;
+
+}
+
+.menu__item {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 5px;
+	
+
+}
+
+.menu__item a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu__item :hover{
+	font-size: 17px;
 }

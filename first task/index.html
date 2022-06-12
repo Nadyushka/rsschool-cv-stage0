@@ -8,9 +8,19 @@
 	<title>RSSchool CV</title>
 </head>
 
-<body>
+<main>
 	<div class="wrapper">
 		<div class="container">
+			<nav class="menu">
+				<ul class="menu__items">
+					<li class="menu__item"> <a href="#contact"> Contact</a></li>
+					<li class="menu__item"><a href="#education">Education</a></li>
+					<li class="menu__item"><a href="#profile">Profile</a></li>
+					<li class="menu__item"><a href="#skills">Skills and Proficiency</a></li>
+					<li class="menu__item"><a href="#code">Code example</a></li>
+					<li class="menu__item"><a href="#languages">Languages</a></li>
+				</ul>
+			</nav>
 			<div class="introduse">
 				<div class="avatar">
 					<img class="avatar__photo" src="img/DSC_0045.jpg" alt="imagine the coolest front-end developer :)">
@@ -30,25 +40,25 @@
 					<div class="left__side">
 						<div class="info">
 							<div class="info__contact">
-								<h2 class="info__left">Contact
-									<div class="line__left"></div>
-								</h2>
 
-								<div class="info__phone">Mobile: +000000000</div>
+								<h2 class="info__left" id="contact">Contact</h2>
+								<div class="line__left"></div>
 
-								<div class="info__adress">Address: Minsk, Belarus</div>
-								<div class="info__email">E-mail: 12nadya11@gmail.com</div>
-								<div class="info__github"> Github:
-									<a title="Follow link" class="gihub__url" href="https://github.com/Nadyushka">
-										@Nadyushka</a>
-								</div>
+								<ul class="info__style">
+									<li class="info__list">Mobile: +000000000</li>
+									<li class="info__list">Address: Minsk, Belarus</li>
+									<li class="info__list">E-mail: 12nadya11@gmail.com</li>
+									<li class="info__list">Github:
+										<a title="Follow link" class="gihub__url" href="https://github.com/Nadyushka">
+											@Nadyushka</a>
+									</li>
+								</ul>
+
 							</div>
-							<container class="education">
-
-								<h2 class="info__left posit">Education
-									<div class="line__left"></div>
-								</h2>
-								<container class="info__name">
+							<div class="education">
+								<h2 class="info__left posit" id="education">Education</h2>
+								<div class="line__left"></div>
+								<div class="info__name">
 									<h3>Process</h3>
 									<div class="info__process">
 										<div class="date"> 2022 - ...</div>
@@ -62,7 +72,7 @@
 										<br>
 										<a class="process__url" href="https://rs.school/js-stage0/">rs-school</a>
 									</div>
-									<container class="info__finish">
+									<div class="info__finish">
 										<h3>Graduated</h3>
 										<div class="info__graduated">
 											<div class="date"> 2022</div>
@@ -70,20 +80,22 @@
 											<a class="process__url" href="https://www.youtube.com/c/FreelancerLifeStyle">Freelancer
 												for life</a>
 										</div>
-									</container>
-								</container>
-							</container>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="descr__line"> </div>
 					<div class="right__side">
 						<div class="info">
 
-							<h2 class=info__name">Profile</h2>
+							<h2 class="info__name move" id="profile">Profile</h2>
 							<div class="line__right "></div>
-							<div class="info__profile">I am passionate about creating usefull things. It is really important to
+							<div class="info__profile">I am passionate about creating usefull things. It is really important
+								to
 								understand people needs.
-								I like to work as a team-player, because it is really enjoyble. Different points of view help to
+								I like to work as a team-player, because it is really enjoyble. Different points of view help
+								to
 								understand all aspects and to find the best solution. Time-managment plays a big role in
 								my life.
 								That helps me to achive goals within the agreeed time.
@@ -91,7 +103,7 @@
 							</div>
 						</div>
 						<div class="info__skills">
-							<h2 class="info__name add ">Skills and Proficiency</h2>
+							<h2 class="info__name add " id="skills">Skills and Proficiency</h2>
 							<div class="line__right additinal"></div>
 							<div class="skill__name">
 								<div class="line__gor"></div>
@@ -103,7 +115,7 @@
 								</ul>
 							</div>
 							<div class="skill__code">
-								<h2 class="info__name">Code example</h2>
+								<h2 class="info__name" id="code">Code example</h2>
 								<div class="line__right corr"></div>
 								<div class="code__task">Write a function to split a string and convert it into an array of
 									words.
@@ -116,7 +128,7 @@ return string.split(' ');
 							</pre>
 							</div>
 							<div class="skill__language">
-								<h2 class="info__name corr">Languages</h2>
+								<h2 class="info__name corr" id="languages">Languages</h2>
 								<div class="line__right"></div>
 								<ul>
 									<li>English - B2</li>
@@ -131,16 +143,19 @@ return string.split(' ');
 			</div>
 		</div>
 	</div>
-</body>
+</main>
 
 <footer>
 	<div class="container">
 		<div class="footer__info">
-			<div class="footer__name">Nadzeya Baranava</div>
-			<div class="footer__school">RS-School</div>
+			<a class="github__footer" href="https://github.com/Nadyushka">GitHub: @Nadyushka</a>
+			<a href="https://rs.school/js/">
+				<img class="footer__img" src="img/rs_school_js.svg" alt="">
+			</a>
 			<div class="footer__year">2022</div>
 		</div>
 	</div>
 </footer>
+
 
 </html>
